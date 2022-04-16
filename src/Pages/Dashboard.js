@@ -293,8 +293,6 @@ export function Body(){
             display: "flex",
             alignContent: "center",
             alignItems: "center",
-            
-
         }}>
                 
                 <Box
@@ -358,13 +356,84 @@ export function Body(){
                          }}>Read more</p>
 
                     </Paper>
-                
-                
                 </Box> 
                 </Box>
+        </div>
+        <div className="Services"
+        style={{
+            width: window.innerWidth,
+            height: "800px",
+            background: "#ffffff",
+            marginTop: "2px",
+            display: "flex",
+            flexDirection: "column",
+          // justifyContent: "space-between",
+            alignContent: "center",
+           alignItems: "center",
+        }}>
             
+                         <h3
+                        style={{
+                            fontFamily: "catamaran",
+                            fontWeight: "bold",
+                            color: "#000000",
+                            fontSize: "40px",
+                            
+                             
+                        }}>
+                            Our Services
+                        </h3>
+                        <p style={{
+                    
+                    fontFamily: "poppins"
+                }}>
+                Diam vero rebum dolore amet invidunt dolore magna lorem. Magna.
+                </p>
+                <Box style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "center",
+                    
 
-            </div>
+                }}>
+                    <Box style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-between"
+
+                }}>
+                    <Paper style={{
+                    width: "300px",
+                    height: "400px",
+                    background: "#ffffff",
+                    
+                    }}>
+                </Paper>
+                    </Box>
+                    <Box>
+                    <Paper style={{
+                    width: "300px",
+                    height: "400px",
+                    background: "#ffffff",
+                    
+                    }}>
+                </Paper>
+                    </Box>
+                    <Box>
+                    <Paper style={{
+                    width: "300px",
+                    height: "400px",
+                    background: "#ffffff",
+                    
+                    }}>
+                </Paper>
+                    </Box>
+                </Box>
+                
+           
+
+
+        </div>
        
         
 
